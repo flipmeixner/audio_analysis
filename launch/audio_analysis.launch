@@ -1,0 +1,4 @@
+<launch>
+    <node name="audio_stream_node" pkg="audio_analysis" type="audio_stream_node.py" output="screen" />
+    <node name="audio_processor_node" pkg="audio_analysis" type="audio_processor_node.py" output="screen" />
+</launch>
